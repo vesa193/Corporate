@@ -1,0 +1,44 @@
+@import ../helpers/vars
+@import ../helpers/mixins
+
+.clients
+    height: 648px
+    display: flex
+    justify-content: center
+    +background('../img/bg03.jpg', center, no-repeat)
+    background-size: cover
+
+
+    &__wrap
+        width: 80%
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+
+    &__cards
+        display: flex
+        justify-content: space-around
+    &__card
+        width: 30%
+        display: flex
+        flex-direction: column
+        align-items: center
+        text-align: center
+
+        h5
+            margin-bottom: 20px
+
+        h6
+            margin-top: 20px
+            color: white 
+
+        p
+            color: #939395
+            font-style: italic
+
+    &__logos
+        //width: 80%
+        display: flex
+        justify-content: space-around
+        margin-top: 80px

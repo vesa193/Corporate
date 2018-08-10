@@ -1,0 +1,17 @@
+@import ../helpers/vars
+@import ../helpers/mixins
+
+.description
+    padding: 200px 0
+
+    &__wrap
+        //width: 80%
+        display: flex
+        align-items: center
+
+        h3
+            margin-bottom: 40px
+
+    &__img
+        +background('../img/shape02.png', center, no-repeat)
+        background-size: cover

@@ -1,0 +1,47 @@
+@import ../helpers/vars
+@import ../helpers/mixins
+    
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+body
+    font-family: 'Exo', sans-serif
+
+
+li
+    list-style-type: none
+
+a
+    text-decoration: none
+    +transition(all, .3s, ease-in-out)
+
+    &:hover, &:focus 
+        text-decoration: none
+
+
+h1
+    font-size: 3.5em
+    font-weight: 100
+
+h3 
+    font-size: 2em
+    font-weight: 400
+
+h5
+    font-size: .9em
+    font-weight: 500
+    color: $red
+    margin-bottom: 10px
+
+h6
+    font-size: 1em
+    font-weight: 500
+
+p
+    font-size: .9em
+    font-weight: 500
+    color: #666666
+    line-height: 150%
+
