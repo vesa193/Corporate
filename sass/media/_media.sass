@@ -13,14 +13,19 @@ $screen-md-max: ($screen-lg-min - 1);
 @media all and (min-width: $screen-xs-min) and (max-width: $screen-xs-max) 
     //header
     .header
+        height: auto
+        padding: 100px 0px
 
         &__wrap
             width: 100%
+
+            h1
+                font-size: 3em
             
     //shape
     .shape 
         flex-direction: column
-        padding: 200px 20px 200px 20px
+        padding: 100px 20px 100px 20px
 
         &__text
             width: 100%
@@ -30,10 +35,10 @@ $screen-md-max: ($screen-lg-min - 1);
     
     //features
     .features
+        padding: 100px 20px
 
         &__wrap
             width: 100%
-            padding: 0 20px
 
         &__cards
             flex-direction: column
@@ -45,11 +50,11 @@ $screen-md-max: ($screen-lg-min - 1);
 
     //description
     .description
+        padding: 100px 20px
 
         &__wrap
             width: 100%
             flex-direction: column
-            padding: 0 20px
             
 
         &__img
@@ -62,12 +67,12 @@ $screen-md-max: ($screen-lg-min - 1);
     //clients
     .clients
         height: auto
+        padding: 100px 20px
 
         &__wrap
             width: 100%
             flex-direction: column
             align-items: center
-            padding: 40px 20px
 
         &__cards
             flex-direction: column
@@ -75,7 +80,7 @@ $screen-md-max: ($screen-lg-min - 1);
 
         &__card
             width: 100%
-            margin-bottom: 20px
+            margin-bottom: 40px
 
         &__logos
             width: 100%
@@ -83,19 +88,30 @@ $screen-md-max: ($screen-lg-min - 1);
             align-items: center
 
             img
-                margin-bottom: 20px
+                margin-bottom: 40px
     //browser
     .browser
+
         &__wrap
             width: 100%
             padding: 0 20px
 
+        &__img
+
+            img
+                width: 100%
+                height: auto
+
     //try
     .try
-        padding: 40px 20px
+        padding: 100px 20px
 
         &__wrap
             width: 100%
+
+            h3
+                text-align: center
+                margin-bottom: 20px
 
         &__text
             flex-direction: column
@@ -138,13 +154,18 @@ $screen-md-max: ($screen-lg-min - 1);
 @media all and (min-width: $screen-sm-min) and (max-width: $screen-sm-max) 
     //header
     .header
+        height: auto
+        padding: 100px 0px
 
         &__wrap
             width: 100%
+
+            h1
+                font-size: 3em
             
     //shape
     .shape 
-        padding: 200px 20px 200px 20px
+        padding: 0px 20px 100px 20px
         
         &__text
             width: 100%
@@ -154,10 +175,10 @@ $screen-md-max: ($screen-lg-min - 1);
 
     //features
     .features
+        padding: 100px 20px
 
         &__wrap
             width: 100%
-            padding: 0 20px
 
         &__cards
             flex-direction: column
@@ -165,14 +186,14 @@ $screen-md-max: ($screen-lg-min - 1);
 
         &__card
             width: 100%
-            margin-bottom: 20px
+            margin-bottom: 40px
     
     //description
     .description
+        padding: 100px 20px
 
         &__wrap
             width: 100%
-            padding: 0 20px
 
         &__img
 
@@ -181,11 +202,11 @@ $screen-md-max: ($screen-lg-min - 1);
 
     //clients
     .clients
+        padding: 100px 20px
         height: auto
 
         &__wrap
             width: 100%
-            padding: 40px 20px
             flex-direction: column
             align-items: center
 
@@ -195,25 +216,40 @@ $screen-md-max: ($screen-lg-min - 1);
 
         &__card
             width: 100%
-            margin-bottom: 20px
+            margin-bottom: 40px
 
         &__logos
             width: 100%
             flex-direction: column
             align-items: center
 
+            img
+                margin-bottom: 40px
+
     //browser
     .browser
+        padding: 100px 20px
+
         &__wrap
             width: 100%
-            padding: 0 20px
+
+        &__img
+
+            img
+                width: 100%
+                height: auto
+
 
     //try
     .try
-        padding: 40px 20px
+        padding: 100px 20px
 
         &__wrap
             width: 100%
+
+            h3
+                text-align: center
+                margin-bottom: 20px
 
         &__text
             flex-direction: column
@@ -231,7 +267,7 @@ $screen-md-max: ($screen-lg-min - 1);
     //footer
     .footer
         width: 100%
-        padding: 0 20px
+        padding: 100px 20px
 
         &__cards
             width: 100%
@@ -327,6 +363,10 @@ $screen-md-max: ($screen-lg-min - 1);
         
 
 @media all and (min-width: $screen-lg-min) 
+    //header
+    .header
+        height: 813px
+
     //shape
     .shape 
         
